@@ -9,11 +9,6 @@ window.onload = async function () {
   // Set up an interval to update the countdown every second
   setInterval(updateCountdown, 1000);
 
-  // Set up a separate interval to fetch new data and pause every minute
-  setInterval(async function () {
-    ({ unixTimestamp } = await fetchCountdown());
-  }, 60000);
-
   /**
    * Function to update the countdown timer
    */
