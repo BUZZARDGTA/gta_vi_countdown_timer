@@ -2,7 +2,7 @@ window.onload = async function () {
   const countdownTimer = document.getElementById("airing-date-countdown-timer");
 
   // Formats the Unix timestamp for the GTA 6 trailer.
-  let unixTimestamp = new Date("2023-12-05").getTime() / 1000;
+  const unixTimestamp = new Date("2023-12-05T09:00:00").getTime() / 1000;
 
   updateCountdown();
 
