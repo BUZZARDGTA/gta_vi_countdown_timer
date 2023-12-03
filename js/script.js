@@ -35,8 +35,8 @@ function formatCountdown(unixTimestamp) {
   // Options for formatting the date/time
   const options = {
     timeZone: "America/New_York", // Set the time zone to Eastern Time
-    hour12: false, // Set to false if you want 24-hour time format
-    weekday: "long", // Display the full name of the day
+    hour12: false,
+    weekday: "long",
     year: "numeric",
     month: "numeric",
     day: "numeric",
