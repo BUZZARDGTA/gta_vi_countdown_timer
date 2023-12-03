@@ -30,7 +30,7 @@ function formatCountdown(unixTimestamp) {
   const targetDate = new Date(unixTimestamp * 1000);
 
   // Get the current date and time
-  const currentDate = new Date();
+  const currentDate = new Date().toUTCString();
 
   // Calculate the time difference in milliseconds
   const timeDifference = targetDate - currentDate;
