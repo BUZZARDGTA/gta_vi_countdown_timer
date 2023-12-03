@@ -18,7 +18,7 @@ body {
 }
 
 body {
-  background-image: url("/gta_vi_countdown_timer/images/gta-6-date-trailer.jpg"); /* Replace 'path/to/your/image.jpg' with your image file path */
+  background-image: url("/images/gta-6-date-trailer.jpg"); /* Replace 'path/to/your/image.jpg' with your image file path */
   background-size: 100vw 100vh; /* 100% of the viewport width and height */
   /* Other background properties like color, position, etc., can be added as needed */
 }
