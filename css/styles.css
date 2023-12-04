@@ -77,7 +77,7 @@ body {
 
 @font-face {
   font-family: "Pricedown";
-  src: url("/fonts/pricedown bl.otf") format("opentype");
+  src: url("/gta_vi_countdown_timer/fonts/pricedown bl.otf") format("opentype");
 }
 
 @media screen and (max-width: 500px) {
