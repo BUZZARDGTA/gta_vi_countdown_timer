@@ -79,6 +79,14 @@ body {
   font-family: "Pricedown";
   src: url("/gta_vi_countdown_timer/fonts/pricedown bl.otf") format("opentype");
 }
+@font-face {
+  font-family: "Ink free";
+  src: url("/gta_vi_countdown_timer/fonts/Inkfree.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Segoe Script";
+  src: url("/gta_vi_countdown_timer/fonts/segoesc.ttf") format("truetype");
+}
 
 @media screen and (max-width: 500px) {
   .airing-date-container * {
