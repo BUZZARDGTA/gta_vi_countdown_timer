@@ -85,9 +85,6 @@ body {
   }
 
   .youtube-trailer > iframe {
-    border: 2px;
-    border-style: solid;
-    border-color: #7e3457;
     width: 65vw;
     height: 40vw;
   }
