@@ -87,6 +87,9 @@ h1 {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  .background > .background-mobile-extend-hack {
+    height: 400px;
+  }
 
   .font-GTA {
     font-size: 90px;
