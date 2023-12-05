@@ -61,12 +61,13 @@ body {
 
 .youtube-trailer {
   display: flex;
-  height: auto;
-  width: auto;
   justify-content: center;
-  text-align: center;
+}
+.youtube-trailer > iframe {
+  border: 3px;
+  border-style: solid;
+  border-color: #7e3457;
   max-width: 100%;
-  border: 0;
 }
 
 @font-face {
