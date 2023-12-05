@@ -8,17 +8,15 @@ body {
   width: auto;
   border: 0;
 
-  min-height: 100vh;
   text-align: left;
 
-  background-image: url("/gta_vi_countdown_timer/images/mathieuDontSayBadWords.png"); /* Replace 'path/to/your/image.jpg' with your image file path */
-  background-size: 100vw 100vh; /* 100% of the viewport width and height */
+  background-image: url("/gta_vi_countdown_timer/images/mathieuDontSayBadWords.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .airing-date-container {
-  max-width: 90vh;
   color: #7e3457;
 }
 
@@ -46,22 +44,18 @@ body {
 .font-VI {
   font-family: "Ink Free";
   font-size: 105px;
+  color: #fbebfb;
 }
 .font-trailer-countdown-text {
   font-family: "Segoe Script";
   font-weight: normal;
   font-size: 50px;
+  color: #7e3457;
 }
 .font-trailer-countdown {
   font-family: "Segoe Script";
   font-weight: normal;
   font-size: 42px;
-}
-
-.text-color-VI {
-  color: #fbebfb;
-}
-.text-color-trailer-countdown {
   color: #fbebfb;
 }
 
