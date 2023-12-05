@@ -82,7 +82,7 @@ body {
 @media screen and (max-width: 1000px) {
   body {
     background-image: url("/gta_vi_countdown_timer/images/YTBqeiV.jpeg");
-    background-size: 100% 100%;
+    background-size: 10px 10px;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -97,7 +97,7 @@ body {
     font-size: 50px;
   }
   .font-trailer-countdown {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .youtube-trailer > iframe {
