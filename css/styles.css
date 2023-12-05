@@ -2,12 +2,6 @@
 
 html,
 body {
-  background-color: #1c1c1c;
-  font-family: Arial, Helvetica, sans-serif;
-  word-wrap: break-word;
-  width: auto;
-  border: 0;
-
   text-align: left;
 
   background-image: url("/gta_vi_countdown_timer/images/YTBqeiV.jpeg");
@@ -70,7 +64,6 @@ body {
   border: 3px;
   border-style: solid;
   border-color: #7e3457;
-  max-width: 100%;
 }
 
 @font-face {
@@ -86,8 +79,16 @@ body {
   src: url("/gta_vi_countdown_timer/fonts/segoesc.ttf") format("truetype");
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .airing-date-container * {
     font-size: 12px;
+  }
+
+  .youtube-trailer > iframe {
+    border: 2px;
+    border-style: solid;
+    border-color: #7e3457;
+    width: 50vw;
+    height: 30vw;
   }
 }
